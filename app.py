@@ -3,7 +3,8 @@ import joblib
 import pandas as pd
 import re
 import numpy as np
-
+# Force light theme
+st._config.set_option("theme.base", "light")
 # Set page config first
 st.set_page_config(
     page_title="ResumeIQ - Smart Resume Classifier",
